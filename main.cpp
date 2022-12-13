@@ -3,6 +3,10 @@
 
 int main() {
 
+#ifdef _WIN32
+    return 0;
+#endif
+
     int menu;
 
     std::cout << "choose lib" << std::endl
